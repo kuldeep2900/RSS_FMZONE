@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linear3"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    >
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yoga"
+        android:background="@drawable/button_selector"
+        android:textColor="#f16e06"
+        android:textSize="20sp"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="70dp"
+        android:textAlignment="center"
+        android:id="@+id/Yoga"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ayurveda"
+        android:background="@drawable/button_selector"
+        android:textColor="#FFF16E06"
+        android:textSize="20sp"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="140dp"
+        android:textAlignment="center"
+        android:id="@+id/Ayurveda"
+
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vastu"
+        android:background="@drawable/button_selector"
+        android:textColor="#FFF16E06"
+        android:textSize="20sp"
+
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp"
+        android:textAlignment="center"
+        android:id="@+id/Vastu"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meditation"
+        android:background="@drawable/button_selector"
+        android:textColor="#FFF16E06"
+        android:textSize="20sp"
+
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp"
+        android:textAlignment="center"
+        android:id="@+id/Meditation"
+
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:id="@+id/inside_linear1"
+        >
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:dividerHeight="6.0sp"
+        android:divider="#ea753b"
+        android:background="@drawable/list_selector"
+
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:id="@+id/list_view_Yoga"
+
+        />
+</LinearLayout>
+</RelativeLayout>
